@@ -7,53 +7,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="script.js"></script>
     <title>Romios Holiday Apartments</title>
 
-    <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="RomioApartment.css" type="text/css">
     </head>
     <body>
-         <section class = "homePage">
+        <div id="scroll-container">
+         <section id = "homePage">
              <div class = "introduction" style = "width:50%; height:100%">
                  <div class = "introContent">
                  </div>
              </div>
 
              <div class="menu" style = "width:50%; height: 100%;left:0px">
-        <div class="aboutUS">
-            <br>
-            <div class="services"></div>
-          
-  
-            <div class = "heading">
-            <h2> </h2>
+                 
+                 <div data-url_target = "aboutUs" class= " aboutUs-button">
+            <img alt="" src="img/about.jpg" style="width: 100%; height: auto;">
+                     
+                     <div class = "mask">
+                     </div>
+                     <div class = "heading">
+            <h2>  </h2>
             </div>
-             </div>
+                 </div>
+
                  <div data-url_target = "apartment" class= " apartment-button">
-            
+            <img alt="" src="img/portfolio.jpg" style="width: 100%; height: auto;">
                      <div class = "mask"></div>
                      <div class = "heading">
             <h2>  </h2>
             </div>
                  </div>
                  <div data-url_target = "service" class="service-button">
-                   
+                   <img alt="" src="img/service.jpg" style="width: 100%; height: auto;">
                      <div class = "mask"></div>
                      <div class = "heading">
-            <h2> Services </h2>
+            <h2>  </h2>
             </div>
                  </div>
+                  <a href="#section_aboutUs" class="portfolio-link" data-toggle="modal">
                  <div data-url_target = "contact" class="contact-button">
-                          
+                          <img alt="" src="img/contact.jpg" style="width: 100%; height: auto;" class ="img-responsice">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                        </div>
+                     
+                    </a>
                      <div class = "mask"></div>
                      <div class = "heading">
-            <h2> Services </h2>
+            <h2> </h2>
             </div>
                  </div>
              </div>
         
         
-        </section>
+       </section><!--**************** end of homePage section************************-->
+         <section id = "aboutUs"><!------------- section: About Us---------------------->
+             <div class= "container">
+                 <h2>Hello</h2>
+             </div>
+
+             
+<div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide One');"></div>
+             <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+             <div class="carousel-inner">
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item active left">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item next left">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+             </section><!--**************** Section: End of About US************************-->
+             <div id="scroll-container">
+             <script src ="romioApartment.js"</sript>
     </body>
 </html>
