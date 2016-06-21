@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="RomioApartment.css" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    
+    <!-- Optional, Add fancyBox for media, buttons, thumbs -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script><!-- Optional, Add mousewheel effect -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    
+    <title>Romios Holiday Apartments</title>
+</head>
+        <body>
+    <div id ="main">
+    <div id="nav-trigger">
+        <span>Menu</span>
+        </div>
+        <nav id="nav-main">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Tutorials</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</nav>
+
+<nav id="nav-mobile">
+       </nav>
+<div class="gallery">
+ <a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg" title="Morning Twilight (Jose Hamra Images)">
+	<img src="http://farm6.staticflickr.com/5612/15344856989_449794889d_m.jpg" alt="" />
+</a>
+<a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm8.staticflickr.com/7289/16207238089_0124105172_b.jpg" title="(Eric Goncalves (cathing up again!))">
+	<img src="http://farm8.staticflickr.com/7289/16207238089_0124105172_m.jpg" alt="" />
+</a>
+<a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm9.staticflickr.com/8568/16388772452_f4d77a92c7_b.jpg" title="Arctic Paradise (Tom Draxler)">
+	<img src="http://farm9.staticflickr.com/8568/16388772452_f4d77a92c7_m.jpg" alt="" />
+</a>
+<a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg" title="Rodeo Dusk (_JonathanMitchellPhotography_)">
+	<img src="http://farm8.staticflickr.com/7308/15783866983_27160395b9_m.jpg" alt="" />
+            </a>
+</div>
+        <hr>
+        <div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>Apartment</th>
+      <th>Number</th>
+     <th>Per Night/ Per Room <br> peak</th>
+      <th>Per Night/ Per Room <br> off peak</th>
+    
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+     
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+ 
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+  
+    </tr>
+      
+          <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+  
+    </tr>
+      
+          <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+  
+    </tr>
+  </table>
+</div>
+
+ 
+            </div>
+<script type="text/javascript">
+$(document).ready(function(){
+$(".fancybox").fancybox({
+openEffect  : 'none',
+closeEffect : 'none',
+iframe : {
+preload: false
+}
+});
+$(".various").fancybox({
+maxWidth    : 800,
+maxHeight    : 600,
+fitToView    : false,
+width        : '70%',
+height        : '70%',
+autoSize    : false,
+closeClick    : false,
+openEffect    : 'none',
+closeEffect    : 'none'
+});
+$('.fancybox-media').fancybox({
+openEffect  : 'none',
+closeEffect : 'none',
+helpers : {
+media : {}
+}
+});
+});
+</script>
+ 
+    </body>
+</html>
