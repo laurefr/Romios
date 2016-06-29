@@ -38,3 +38,40 @@ $(document).ready(function(){
     });
 });
 
+ var myForm = document.form1;
+
+        function btnCheckFormClick(e) {
+            var txtName = myForm.txtName;
+            var txtAge = myForm.txtAge;
+
+            if (txtAge.value == "" || txtName.value == "") {
+                alert("Please complete all of the form");
+
+                if (txtName.value == "") {
+                    txtName.focus();
+                } else {
+                    txtAge.focus();
+                }
+            } else {
+                alert("Thanks for completing the form " + txtName.value);
+            }
+        }
+
+        function txtAgeBlur(e) {
+            var target = e.target;
+
+            if (isNaN(target.value)) {
+                alert("Please enter a valid age");
+                target.focus();
+                target.select();
+            }
+        }
+
+        function txtNameChange(e) {
+            alert("Hi " + e.target.value);
+        }
+
+        myForm.txtName.addEventListener("change", txtNameChange);
+        myForm.txtAge.addEventListener("blur", txtAgeBlur);
+        myForm.btnCheckForm.addEventListener("click", btnCheckFormClick);
+
