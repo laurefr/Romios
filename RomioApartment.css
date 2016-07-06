@@ -21,6 +21,15 @@ h2{
   
     color: #073a63;
 }
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+       font-size: 25px;
+    padding: 15px;
+  
+    color: #073a63;
+}
 pre{
       font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -319,6 +328,16 @@ a:-webkit-any-link {
     margin-top: 40px;
 
  } 
+boxed3{
+     border-radius: 25px;
+    background:rgba(171, 170, 170, 0.07);
+    padding: 20px;
+    width: 1240px;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 40px;
+}
 p{
     text-align:center;
         font-family: 'Raleway', sans-serif;
